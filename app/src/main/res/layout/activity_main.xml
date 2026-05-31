@@ -28,7 +28,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:format12Hour="h:mm a"
+        android:format12Hour="EEE, MMM d"
+        android:format24Hour="EEE, MMM d"
+        android:textColor="@color/text_secondary"
+        android:textSize="20sp" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:format12Hour="h:mm"
         android:format24Hour="HH:mm"
         android:textColor="@color/text_primary"
         android:textSize="42sp"
